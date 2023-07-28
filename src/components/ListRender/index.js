@@ -1,7 +1,7 @@
 import { ListCard } from "../ListCard";
 import "./index.css";
 
-export const ListRender = ({ list }) => {
+export const ListRender = ({ list, onEdit }) => {
   if (list?.length === 0) {
     return (
       <h3>
@@ -14,7 +14,7 @@ export const ListRender = ({ list }) => {
   return (
     <div className="list-render-container">
       {list.map((item) => (
-        <ListCard key={item?._id} item={item} />
+        <ListCard onClick={onEdit} key={item?._id} item={item} />
       ))}
     </div>
   );
