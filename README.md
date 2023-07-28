@@ -5,12 +5,15 @@ This is an application build using React.JS, with the goal of make easier create
 <p>
 <img src="/public/images/Gif preview.gif" />
 </p>
-
 ## Technologies Used
 
 - React.JS
 - CSS
 - Axios
+
+## Requirements to run:
+
+-Node.js (https://nodejs.org/en)
 
 ## Running Instructions
 
