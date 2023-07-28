@@ -48,3 +48,25 @@
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 830px) {
+  .list-screen-header-title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .list-screen-header-title {
+    font-size: 14px;
+    line-height: 12px;
+  }
+  .logo-image {
+    width: 34px;
+    height: auto;
+  }
+  .list-screen-content-container {
+    width: 72vw;
+  }
+  .list-screen-header-button-container {
+    width: 42px;
+  }
+}
