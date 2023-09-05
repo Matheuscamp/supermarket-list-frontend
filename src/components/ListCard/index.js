@@ -9,6 +9,7 @@ export const ListCard = ({ item, onClick, onCheckItem }) => {
           checked={item?.checked}
           id="checkbox"
           type="checkbox"
+          class="ui-checkbox"
         />
 
         <label htmlFor="checkbox" />
